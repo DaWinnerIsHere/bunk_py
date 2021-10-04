@@ -7,6 +7,6 @@ setup(
    author='DaWinnerIsHere',
    author_email='dawinnerishere@gmail.com',
    packages=['bunk_py'],
-   package_dir={'bunk_py': './'},
+   package_dir={'bunk_py': './bunk_py'},
    install_requires=['wheel', 'bar', 'greek'],
 )
