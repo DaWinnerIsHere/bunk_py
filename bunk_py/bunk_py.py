@@ -40,7 +40,7 @@ class BunkWeather:
         self.wind_mph = wind_mph
         self.wind_kph = wind_kph
         self.wind_dir = wind_dir
-        self.humidity = self.humidity
+        self.humidity = humidity
         self.feelslike_c = feelslike_c
         self.feelslike_f = feelslike_f
         self.raw = raw
