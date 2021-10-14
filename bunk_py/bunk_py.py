@@ -405,7 +405,6 @@ class BunkAPI:
         xdata = {"city": city}
         x = requests.post(f'https://bunkapi.xyz/api/v2/weather/{self.id}',headers=headers,json=xdata)
         x = x.json()
-        x = x.json()
         if x['status'] != 200:
             raise InvalidTokenOrUser
         else:
